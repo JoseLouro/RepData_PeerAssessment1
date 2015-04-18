@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Coursera Peer Assessment 1 for Reproducible Research
 ### by Jose Manuel Teles Louro da Silva 
 
@@ -38,10 +39,24 @@ Examine data.
 summary(MyDataFrame)
 str(MyDataFrame)
 ```
+=======
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
 
 ## What is mean total number of steps taken per day?
 
 
+<<<<<<< HEAD
 A Histogram of the total number of steps taken each day,
 
 ```{r, echo=TRUE}
@@ -89,10 +104,16 @@ maxStepInterval
 
 The **`r maxStepInterval`<sup>th</sup> interval** has the maximum activity on the average.
 
+=======
+
+## What is the average daily activity pattern?
+
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
 
 
 ## Imputing missing values
 
+<<<<<<< HEAD
 Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
 Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
@@ -184,3 +205,8 @@ xyplot(steps~interval|weekPart,
 We observe that activity on the weekends tends to be more spread out over the day compared to the weekdays. 
 This could be due to the fact that activities on weekdays mostly follow a work related routine, whereas weekends tend to be more adhoc.
 
+=======
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
